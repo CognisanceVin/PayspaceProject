@@ -1,0 +1,58 @@
+﻿@model DomainManager.Models.TaxModel
+
+
+@{
+    ViewData["Title"] = "Home Page";
+
+    List<SelectListItem> listItems = new List<SelectListItem>();
+    listItems.Add(new SelectListItem
+    {
+        Text = "7441",
+        Value = "7441"
+    });
+    listItems.Add(new SelectListItem
+    {
+        Text = "A100",
+        Value = "A100"
+    });
+    listItems.Add(new SelectListItem
+    {
+        Text = "7000",
+        Value = "7000"
+    });
+    listItems.Add(new SelectListItem
+    {
+        Text = "1000",
+        Value = "1000"
+    });
+}
+
+    <div class="wrapper">
+        <h1 class="display-4">Welcome to PaySpace online Tax Calculator</h1>
+        <form action="@Url.Action("SaveForm", "Home")" id="SaveDataForm" enctype="multipart/form-data" class="please" method="post">
+            @Html.AntiForgeryToken()
+            <div class="DownloadFormCan">
+                @Html.ValidationSummary(false, "The following fields are required", new { @class = "validation-summary" })
+
+                <fieldset>
+                    @Html.TextBoxFor(model => model.AnnualIncome, "", new { @placeholder = "Enter your annual income", @class = "form-control", @type = "number", @min = 0 })
+
+                </fieldset>
+                <fieldset>
+                    @Html.DropDownListFor(model => model.PostalCode, new SelectList(listItems, "Value", "Text"), "Please select your postal code", new { @class = "form-control" })
+
+                </fieldset>
+
+                <div class="btnDiv">
+                    <button class="btn btn-primary" type="submit">Calculate Tax</button>
+                </div>
+
+            </div>
+        </form>
+
+        @{
+            var data = (String)TempData["Message"];
+        }
+
+        <h4>@data</h4>
+    </div>

@@ -1,0 +1,11 @@
+D:\Development\PaySpaceTest\Project\DomainManager\bin\Debug\netcoreapp3.1\DomainManager.deps.json
+D:\Development\PaySpaceTest\Project\DomainManager\bin\Debug\netcoreapp3.1\DomainManager.dll
+D:\Development\PaySpaceTest\Project\DomainManager\bin\Debug\netcoreapp3.1\DomainManager.pdb
+D:\Development\PaySpaceTest\Project\DomainManager\bin\Debug\netcoreapp3.1\DomainObjects.dll
+D:\Development\PaySpaceTest\Project\DomainManager\bin\Debug\netcoreapp3.1\DomainObjects.pdb
+D:\Development\PaySpaceTest\Project\DomainManager\obj\Debug\netcoreapp3.1\DomainManager.csprojAssemblyReference.cache
+D:\Development\PaySpaceTest\Project\DomainManager\obj\Debug\netcoreapp3.1\DomainManager.AssemblyInfoInputs.cache
+D:\Development\PaySpaceTest\Project\DomainManager\obj\Debug\netcoreapp3.1\DomainManager.AssemblyInfo.cs
+D:\Development\PaySpaceTest\Project\DomainManager\obj\Debug\netcoreapp3.1\DomainManager.csproj.CopyComplete
+D:\Development\PaySpaceTest\Project\DomainManager\obj\Debug\netcoreapp3.1\DomainManager.dll
+D:\Development\PaySpaceTest\Project\DomainManager\obj\Debug\netcoreapp3.1\DomainManager.pdb

@@ -1,0 +1,5 @@
+D:\Development\PaySpaceTest\Project\DomainObjects\bin\Debug\DomainObjects.dll
+D:\Development\PaySpaceTest\Project\DomainObjects\bin\Debug\DomainObjects.pdb
+D:\Development\PaySpaceTest\Project\DomainObjects\obj\Debug\DomainObjects.csprojAssemblyReference.cache
+D:\Development\PaySpaceTest\Project\DomainObjects\obj\Debug\DomainObjects.dll
+D:\Development\PaySpaceTest\Project\DomainObjects\obj\Debug\DomainObjects.pdb
